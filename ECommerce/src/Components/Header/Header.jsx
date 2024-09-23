@@ -27,8 +27,8 @@ const Header = () => {
           </nav>
           <div className="cart" onClick={toggleCart}>
             <FontAwesomeIcon icon={faShoppingCart} />
-        </div>
-      </header>
+          </div>
+        </header>
 
       <div className={`cart-slide ${cartOpen ? 'open' : ''}`}>
           <h2>Shopping Cart</h2>
